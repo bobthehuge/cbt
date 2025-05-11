@@ -4,7 +4,7 @@ CRELFLAGS = -std=c99 -O3
 CDEVFLAGS = -std=c99 -g
 LDLIBS =
 
-SRC = `find . -name '*.c' ! -path './samples/*'`
+SRC = `find . -path './src/*.c'`
 OBJ = `find . -name '*.o'`
 EXE = cbtc
 
